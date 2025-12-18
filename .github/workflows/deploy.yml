@@ -19,4 +19,4 @@ jobs:
         run: pwd
 
       - name: 작업 폴더 목록 확인
-        run: ls-al
+        run: ls -al
