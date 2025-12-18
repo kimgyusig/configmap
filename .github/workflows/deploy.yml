@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - main
-  env:
-    - NAME: kosa
-    - USERNAME: kosa
-    #USER_PASSWORD:
+env:
+  NAME: kosa
+  USERNAME: kosa
+  USER_PASSWORD: ${{secrets.USER_PASSWORD}}
 
 jobs:
   My-Deploy-Job:
