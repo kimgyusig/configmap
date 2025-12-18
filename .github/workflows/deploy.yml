@@ -4,8 +4,8 @@ on:
     branches:
       - main
   env:
-    NAME: kosa
-    USERNAME: kosa
+    - NAME: kosa
+    - USERNAME: kosa
     #USER_PASSWORD:
 
 jobs:
